@@ -1,0 +1,12 @@
+USER ROUTES:
+    - /User/Auth  Body: {Username: String, Password: String}
+    - /User/Create  
+        Body: 
+            {
+                FirstName: String,
+                LastName: String,
+                Username: String,
+                Password: String,
+                Email: String
+            }
+    - 
